@@ -1,7 +1,7 @@
 <h1 align=center>Dockette / Upstream</h1>
 
 <p align=center>
-   <a href="https://github.com/dockette/upstream/actions"><img src="https://github.com/dockette/upstream/actions/workflows/docs.yml/badge.svg" alt="GitHub Actions"></a>
+   <a href="https://github.com/dockette/upstream/actions"><img src="https://github.com/dockette/upstream/actions/workflows/docker.yml/badge.svg" alt="GitHub Actions"></a>
    <a href="https://github.com/sponsors/f3l1x"><img src="https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ea4aaa" alt="GitHub Sponsors"></a>
    <a href="https://github.com/orgs/dockette/discussions"><img src="https://img.shields.io/badge/support-discussions-6f42c1" alt="Support/Discussions"></a>
 </p>
@@ -14,9 +14,7 @@
 
 ## Status
 
-This repository is archived legacy content. The PHP versions and their Alpine package bases are end-of-life, so CI intentionally does not build or publish Docker images from this repository.
-
-The Docker Hub pulls badge is omitted because there is no maintained image rollout target for this archived collection. Keeping the badge out avoids suggesting current support for EOL PHP images.
+This repository holds a legacy PHP image collection (PHP 5.6, 7.0, 7.1). The runtimes and their Alpine package bases are end-of-life. Images are built and published on a best-effort basis via the standard Docker CI workflow, but builds may break at any time once upstream package mirrors, Composer, or legacy plugins drop support for these EOL runtimes.
 
 ## Images
 
